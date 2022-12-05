@@ -1,0 +1,15 @@
+.donut__cursos__flip {
+	position: absolute;
+	/* transform: translateX(-50%) translateY(-50%); */
+	width: 84px;
+	height: 84px;
+	bottom: 20px;
+	z-index: 10000;
+	cursor: pointer;
+	transition: 0.5s;
+	background: url("../assets/flip.png");
+}
+
+.donut__cursos__flip:hover {
+	transform: scale(1.1);
+}

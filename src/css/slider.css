@@ -1,0 +1,43 @@
+.slider {
+	margin-top: 200px;
+	width: 75%;
+	height: 100vh;
+	position: relative;
+}
+
+.slider__card {
+	transform: scale(0.8);
+	border-radius: 24px;
+	height: 540px;
+	transition: 0.7s;
+	z-index: 1;
+	position: relative;
+}
+.slider__card__active {
+	transition: 0.7s;
+
+	border-radius: 24px;
+	width: none;
+	transform: scale(1);
+	width: 80% !important;
+	background-color: #fff;
+	z-index: 100000;
+}
+
+.slider__card__left {
+	z-index: 1;
+	transform: rotate(-15deg) translate(20px, 40px) scale(0.7);
+}
+
+.slider__card__right {
+	z-index: -1;
+	transform: rotate(15deg) translate(-20px, 40px) scale(0.7);
+}
+
+.slider__card__left,
+.slider__card__right {
+	z-index: 1;
+	background-color: rgb(255, 237, 202);
+	opacity: 0.7;
+	width: 90% !important;
+}

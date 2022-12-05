@@ -1,0 +1,126 @@
+.letsgo__container {
+	width: 100%;
+	height: 982px;
+	position: relative;
+	font-family: "Rubik";
+}
+.letsgo__content {
+	width: 852px;
+	/* height: 100%; */
+	padding-top: 53px;
+	padding-left: 172px;
+	/* padding-bottom: 202px; */
+	/* padding-right: 1016px; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.letsgo__title {
+	width: 659px;
+	height: 171px;
+	font-weight: bold;
+	font-size: 48px;
+	margin-bottom: 41px;
+}
+
+.letsgo__header {
+	margin-top: 41px;
+	width: 664px;
+	height: 162px;
+	font-size: 68px;
+	color: #ffdf15;
+	font-weight: bold;
+	margin-bottom: 91px;
+}
+.letsgo__container button {
+	margin-top: 50px;
+	width: 235px;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	color: #131313;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.letsgo__container button:hover {
+	background-color: #131313;
+	color: white;
+}
+
+.letsgo__figure {
+	width: 204px;
+	height: 480px;
+	background: url("../assets/donutNEW.png");
+	background-repeat: no-repeat;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	left: -80px;
+}
+
+.letsgo__line {
+	position: absolute;
+	width: 1949px;
+	height: 100%;
+	top: 0px;
+	left: -500px;
+	z-index: -111111111111;
+}
+
+.letsgo__line img {
+	/* height: 500px; */
+	object-fit: cover;
+	z-index: -9999;
+}
+
+.topic__card__container__letsgo__1 {
+	transition: 0.5s linear;
+	position: relative;
+	top: 150px;
+	margin-top: 192px;
+	margin-left: 890px;
+	z-index: 5;
+}
+
+.topic__card__container__letsgo__2 {
+	transition: 0.5s linear;
+	position: relative;
+	top: 110px;
+	margin-left: 1080px;
+	margin-top: 77px;
+}
+
+.topic__card__wrapper__letsgo__1 {
+	position: absolute;
+	text-align: center;
+	width: 207px;
+	height: 300px;
+	perspective: 1200;
+	transform-style: preserve-3d;
+	border-radius: 5px;
+	z-index: 5;
+	transform: rotate(-9.2deg);
+}
+
+.topic__card__wrapper__letsgo__2 {
+	position: absolute;
+	text-align: center;
+	width: 207px;
+	height: 300px;
+	perspective: 1200;
+	transform-style: preserve-3d;
+	border-radius: 5px;
+	transform: rotate(8.33deg);
+}
+
+.topic__card__wrapper__letsgo__1:hover .topic__card__flipper {
+	transform: rotateY(180deg);
+}
+
+.topic__card__wrapper__letsgo__2:hover .topic__card__flipper {
+	transform: rotateY(180deg);
+}

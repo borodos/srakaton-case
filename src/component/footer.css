@@ -1,0 +1,8 @@
+.footer {
+	position: absolute;
+	left: 0;
+	background: url("../assets/footer.png");
+	width: 1519px;
+	height: 282px;
+	object-fit: cover;
+}

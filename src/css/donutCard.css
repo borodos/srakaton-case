@@ -1,0 +1,104 @@
+.donut__card {
+	position: relative;
+	padding-top: 10px;
+	height: 640px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 24px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* @keyframes slide_down {
+	from {
+		top: inherit;
+	}
+	to {
+		bottom: -900px;
+	}
+} */
+
+.donut__card-open {
+	height: 100%;
+	transform: scale(1);
+	gap: 30px;
+}
+
+.donut__card-action {
+	cursor: pointer;
+	opacity: 0;
+	transition: linear;
+}
+
+.donut__card:hover .donut__card-action {
+	opacity: 1;
+}
+
+.donut__card {
+	width: 360px;
+	height: 540px;
+	background-color: #fff;
+	z-index: 3;
+	position: relative;
+}
+
+.donut__card__wrapper {
+	width: 200px;
+	height: 100px;
+}
+
+.card__content {
+	height: 100%;
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-content__user {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 30px;
+}
+
+.card-content__name {
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "Inter";
+}
+
+.card-content__img {
+	border-radius: 50%;
+	height: 90px;
+	width: 90px;
+	background-color: #ccc;
+	border: 2px solid #999;
+}
+
+.card-content__info {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
+.card-content__info:nth-child(4) {
+	margin-bottom: 20px;
+}
+
+.card-content__text {
+	color: #52514a;
+}
+.card-content__link {
+	text-decoration: none;
+	color: black;
+	display: block;
+	border: none;
+	font-size: 13px;
+	border-radius: 12px;
+	padding: 13px 50px;
+	background-color: #f6ed00;
+}
